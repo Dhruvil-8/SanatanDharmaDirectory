@@ -1,0 +1,298 @@
+[
+    {
+        "title": "Vedic Heritage Portal",
+        "url": "https://vedicheritage.gov.in/",
+        "description": "Government of India portal preserving Vedic texts, recitations, and manuscripts.",
+        "category": "Vedas & Upanishads",
+        "type": "portal",
+        "trust": "academic"
+    },
+    {
+        "title": "Gita Supersite (IIT Kanpur)",
+        "url": "https://www.gitasupersite.iitk.ac.in/",
+        "description": "Bhagavad Gita portal with multiple commentaries and translations.",
+        "category": "Epics (Ramayana, Mahabharata, Gita)",
+        "type": "portal",
+        "trust": "academic"
+    },
+    {
+        "title": "SanskritDocuments.org",
+        "url": "https://sanskritdocuments.org",
+        "description": "Large repository of Sanskrit texts across scriptures and stotras.",
+        "category": "Vedas & Upanishads",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "Rigveda UTF-8 (Detlef Eichler)",
+        "url": "http://www.detlef108.de/RV-DT-UTF8.html",
+        "description": "Complete Rigveda text in UTF-8 format.",
+        "category": "Vedas & Upanishads",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "Sacred Texts Archive (Hinduism)",
+        "url": "https://sacred-texts.com/hin/index.htm",
+        "description": "Public domain English translations of major Hindu scriptures.",
+        "category": "Vedas & Upanishads",
+        "type": "text",
+        "trust": "academic"
+    },
+    {
+        "title": "VedaWeb",
+        "url": "https://vedaweb.uni-koeln.de/",
+        "description": "Academic linguistic platform focused on the Rigveda.",
+        "category": "Vedas & Upanishads",
+        "type": "portal",
+        "trust": "academic"
+    },
+    {
+        "title": "VedaWeb Data",
+        "url": "https://github.com/VedaWebProject/vedaweb-data",
+        "description": "Open research datasets supporting the VedaWeb project.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "academic"
+    },
+    {
+        "title": "4 Vedas Dataset (Kaggle)",
+        "url": "https://www.kaggle.com/datasets/prateekvashishth/4-vedas",
+        "description": "Text dataset containing the four Vedas.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "community"
+    },
+    {
+        "title": "Valmiki Ramayana",
+        "url": "https://valmikiramayan.net/",
+        "description": "Sanskrit and English presentation of the Valmiki Ramayana.",
+        "category": "Epics (Ramayana, Mahabharata, Gita)",
+        "type": "text",
+        "trust": "traditional"
+    },
+    {
+        "title": "Valmiki Ramayana Dataset",
+        "url": "https://www.kaggle.com/datasets/niharsingla004/valmiki-ramayana-dataset",
+        "description": "Structured dataset derived from the Valmiki Ramayana.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "community"
+    },
+    {
+        "title": "Bhagavad Gita GitHub Dataset",
+        "url": "https://github.com/gita/gita",
+        "description": "Machine-readable Bhagavad Gita data and API resources.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "community"
+    },
+    {
+        "title": "GRETIL e-text Archive",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil.html",
+        "description": "Academic archive of Sanskrit and Indic texts.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "academic"
+    },
+    {
+        "title": "Indology Virtual Archive",
+        "url": "https://indology.info/virtual-e-text-archive-of-indic-texts/",
+        "description": "Curated directory of Indic e-text collections.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "portal",
+        "trust": "academic"
+    },
+    {
+        "title": "Shaiva E-texts (Hamburg University)",
+        "url": "https://www.tantric-studies.uni-hamburg.de/research/e-texts/shaiva-etexts.html",
+        "description": "Academic collection of Shaiva and Tantric texts.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "academic"
+    },
+    {
+        "title": "DharmicData Repository",
+        "url": "https://github.com/bhavykhatri/DharmicData",
+        "description": "Collection of datasets related to Dharmic scriptures.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "community"
+    },
+    {
+        "title": "Vedanta Datasets",
+        "url": "https://github.com/atmabodha/Vedanta_Datasets",
+        "description": "Datasets focused on Vedanta and Yoga texts.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "community"
+    },
+    {
+        "title": "Oliver Hellwig Sanskrit Corpus",
+        "url": "https://github.com/OliverHellwig/sanskrit",
+        "description": "Computational Sanskrit corpus and tools for research.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "academic"
+    },
+    {
+        "title": "Kyoto Sanskrit Resources",
+        "url": "https://www.cc.kyoto-su.ac.jp/~yanom/sanskrit/",
+        "description": "Sanskrit linguistic tools and digital resources from Kyoto University.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "portal",
+        "trust": "academic"
+    },
+    {
+        "title": "Rigveda Audio Archive",
+        "url": "https://github.com/aasi-archive/rv-audio",
+        "description": "Audio recordings of Rigveda recitations.",
+        "category": "Audio & Oral Traditions",
+        "type": "audio",
+        "trust": "community"
+    },
+    {
+        "title": "Ayurveda Text Dataset",
+        "url": "https://www.kaggle.com/datasets/rcratos/ayurveda-texts-english",
+        "description": "English Ayurveda text dataset.",
+        "category": "Ayurveda & Jyotish",
+        "type": "dataset",
+        "trust": "community"
+    },
+    {
+        "title": "Jagannatha Hora",
+        "url": "https://www.vedicastrologer.org/jh/index.htm",
+        "description": "Free Vedic astrology software for chart calculations.",
+        "category": "Ayurveda & Jyotish",
+        "type": "tool",
+        "trust": "traditional"
+    },
+    {
+        "title": "PyJHora",
+        "url": "https://github.com/naturalstupid/PyJHora",
+        "description": "Python implementation of Vedic astrology calculations.",
+        "category": "Ayurveda & Jyotish",
+        "type": "tool",
+        "trust": "community"
+    },
+    {
+        "title": "VedAstro",
+        "url": "https://github.com/VedAstro/VedAstro",
+        "description": "Open-source Vedic astrology APIs and libraries.",
+        "category": "Ayurveda & Jyotish",
+        "type": "tool",
+        "trust": "community"
+    },
+    {
+        "title": "Veducation Library",
+        "url": "https://www.veducation.world/library",
+        "description": "Online library of Hindu scriptures and books.",
+        "category": "Modern Platforms & Communities",
+        "type": "portal",
+        "trust": "community"
+    },
+    {
+        "title": "OS.me",
+        "url": "https://os.me/",
+        "description": "Spiritual writing and knowledge platform.",
+        "category": "Modern Platforms & Communities",
+        "type": "community",
+        "trust": "community"
+    },
+    {
+        "title": "Sadhana App",
+        "url": "https://sadhana.app/",
+        "description": "Modern digital platform for guided spiritual practices.",
+        "category": "Modern Platforms & Communities",
+        "type": "community",
+        "trust": "community"
+    },
+    {
+        "title": "Om Swami YouTube Channel",
+        "url": "https://www.youtube.com/@omswamitv",
+        "description": "Video lectures and discussions on Sanatan Dharma topics.",
+        "category": "Modern Platforms & Communities",
+        "type": "media",
+        "trust": "community"
+    },
+    {
+        "title": "Vedanta Society of New York",
+        "url": "https://www.youtube.com/channel/UCZOKv_xnTzyLD9RJmbBUV9Q",
+        "description": "Video content related to Hindu philosophy and teachings.",
+        "category": "Modern Platforms & Communities",
+        "type": "media",
+        "trust": "community"
+    },
+    {
+        "title": "SARIT - Search and Retrieval of Indic Texts",
+        "url": "https://sarit.indology.info/",
+        "description": "Digital corpus of Sanskrit and Prakrit texts for scholarly study and search.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "text",
+        "trust": "academic"
+    },
+    {
+        "title": "Muktabodha Digital Library",
+        "url": "https://muktabodha.org/",
+        "description": "Digital collection of rare Sanskrit manuscripts with emphasis on Tantra and Shaiva traditions.",
+        "category": "Manuscripts & Rare Archives",
+        "type": "manuscript",
+        "trust": "academic"
+    },
+    {
+        "title": "Wisdom Library",
+        "url": "https://www.wisdomlib.org/hinduism",
+        "description": "Extensive collection of books, articles, dictionaries, and hymns on Hinduism and Sanskrit.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "portal",
+        "trust": "academic"
+    },
+    {
+        "title": "Gita Press",
+        "url": "https://www.gitapress.org/",
+        "description": "World's largest publisher of Hindu religious texts offering online authentic e-books.",
+        "category": "Modern Platforms & Communities",
+        "type": "portal",
+        "trust": "traditional"
+    },
+    {
+        "title": "Patanjali Yoga Sutras",
+        "url": "https://patanjaliyogasutra.in/",
+        "description": "Comprehensive resource for the Yoga Sutras of Patanjali with translations and commentary.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "Global Grey Ebooks (Hinduism)",
+        "url": "https://www.globalgreyebooks.com/category/ebooks/hinduism-page-1.html",
+        "description": "Collection of public domain English translations of Hindu texts.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "Ved Puran Archive",
+        "url": "https://vedpuran.net/download-all-ved-and-puran-pdf-hindi-free/",
+        "description": "Free Hindi PDFs of Vedas and Puranas.",
+        "category": "Vedas & Upanishads",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "SHDVEF Scriptural Library",
+        "url": "https://www.shdvef.com/religious-scriptures",
+        "description": "Digital library of various Hindu religious scriptures.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "portal",
+        "trust": "community"
+    },
+    {
+        "title": "Sanskrit eBooks",
+        "url": "https://www.sanskritebooks.org/ebooks-download/",
+        "description": "Downloadable PDFs of Sanskrit texts and translations.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "community"
+    }
+]

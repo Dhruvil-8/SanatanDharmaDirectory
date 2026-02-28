@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanatan Dharma Resource Directory</title>
+    <meta name="description" content="Index of Hindu scriptures, Sanskrit datasets, and Indic knowledge archives.">
+    <meta name="google-site-verification" content="KAcE5TMLpTpCpFi4t-h-RpigySy2XboQ63TTwk7dxRQ" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dhruvil-8.github.io/SanatanDharmaDirectory/">
+    <meta property="og:title" content="Sanatan Dharma Resource Directory">
+    <meta property="og:description"
+        content="Index of Hindu scriptures, Sanskrit datasets, and Indic knowledge archives.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dhruvil-8.github.io/SanatanDharmaDirectory/">
+    <meta property="twitter:title" content="Sanatan Dharma Resource Directory">
+    <meta property="twitter:description"
+        content="Index of Hindu scriptures, Sanskrit datasets, and Indic knowledge archives.">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Sanatan Dharma Resource Directory",
+      "url": "https://<your-username>.github.io/SanatanDharmaDirectory/",
+      "description": "An open, neutral index of texts, datasets, tools, and archives related to Sanatan Dharma.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://<your-username>.github.io/SanatanDharmaDirectory/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="light-mode">
+    <header class="header">
+        <div class="header-content">
+            <h1>Sanatan Dharma Resource Directory</h1>
+            <p class="subtitle">
+                Index of texts, datasets, tools, and archives related to Sanatan Dharma.
+            </p>
+            <div class="header-actions">
+                <button id="themeToggle" class="btn-theme" aria-label="Toggle Dark Mode">Dark Mode</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="controls-container">
+        <div class="controls">
+            <input id="search" placeholder="Search resources..." aria-label="Search" />
+            <select id="typeFilter" aria-label="Filter by Type">
+                <option value="all">All Types</option>
+                <option value="dataset">Datasets</option>
+                <option value="text">Texts</option>
+                <option value="portal">Portals</option>
+                <option value="tool">Tools</option>
+                <option value="audio">Audio</option>
+                <option value="manuscript">Manuscripts</option>
+                <option value="community">Communities</option>
+                <option value="media">Media</option>
+            </select>
+            <select id="trustFilter" aria-label="Filter by Trust Level">
+                <option value="all">All Sources</option>
+                <option value="academic">Academic</option>
+                <option value="traditional">Traditional</option>
+                <option value="community">Community</option>
+            </select>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="intro-box">
+            <p><strong>Note:</strong> This directory does not endorse, promote, or rank
+                any viewpoint. Built for discoverability of Sanatan Dharma knowledge resources.</p>
+        </div>
+        <div id="list" class="list-container"></div>
+    </main>
+
+    <footer>
+        <p>Open directory • <a href="https://github.com/Dhruvil-8/SanatanDharmaDirectory">Contribute on GitHub</a></p>
+    </footer>
+</body>
+
+</html>
