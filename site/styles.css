@@ -29,27 +29,6 @@
     --bg-texture: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-body.dark-mode {
-    --bg-color: #0b0d10;
-    --text-color: #f8fafc;
-    --text-muted: #94a3b8;
-    --card-bg: rgba(22, 26, 32, 0.4);
-    --card-border: rgba(255, 153, 51, 0.15);
-    --header-bg: #0b0d10;
-    --accent: #ff9933;
-    --accent-secondary: #ffc266;
-    --badge-bg: rgba(255, 153, 51, 0.1);
-    --badge-text: #ff9933;
-
-    /* Trust Colors - Dark Mode */
-    --trust-academic-bg: rgba(13, 71, 161, 0.4);
-    --trust-academic-text: #93c5fd;
-    --trust-comm-bg: rgba(230, 81, 0, 0.4);
-    --trust-comm-text: #fdba74;
-    --trust-trad-bg: rgba(74, 20, 140, 0.4);
-    --trust-trad-text: #d8b4fe;
-}
-
 body {
     font-family: var(--font-serif);
     margin: 0;
@@ -58,7 +37,6 @@ body {
     line-height: 1.7;
     letter-spacing: 0.01em;
     min-height: 100vh;
-    transition: background-color 0.3s, color 0.3s;
     background-image: var(--bg-texture);
     background-blend-mode: overlay;
 }
@@ -84,7 +62,6 @@ h3 {
     padding: 40px 20px;
     background: var(--header-bg);
     border-bottom: 1px solid var(--card-border);
-    transition: background-color 0.3s, border-color 0.3s;
 }
 
 .header-content {
@@ -117,23 +94,7 @@ h3 {
     margin: 0;
 }
 
-.btn-theme {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 8px 12px;
-    border: 1px solid var(--card-border);
-    background: var(--card-bg);
-    color: var(--text-color);
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: all 0.2s;
-}
-
-.btn-theme:hover {
-    background: var(--badge-bg);
-}
+/* Removed .btn-theme styles */
 
 .controls-container {
     background: var(--bg-color);
@@ -337,14 +298,52 @@ footer a {
     text-decoration: none;
 }
 
+@media (max-width: 992px) {
+    .controls {
+        gap: 10px;
+    }
+    .controls input,
+    .controls select {
+        min-width: calc(50% - 10px);
+        flex: 1;
+    }
+}
+
 @media (max-width: 768px) {
-    .btn-theme {
-        position: static;
-        margin-bottom: 15px;
+    .header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
     }
 
-    .header-content {
-        flex-direction: column-reverse;
-        /* Theme btn up top */
+    .container {
+        padding: 20px 15px;
+    }
+
+    .list-item {
+        padding: 15px;
+    }
+
+    .controls input,
+    .controls select {
+        min-width: 100%;
+    }
+    
+    .list-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .category-header {
+        font-size: 1.3rem;
     }
 }

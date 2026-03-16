@@ -205,7 +205,7 @@
         "description": "Modern digital platform for guided spiritual practices.",
         "category": "Modern Platforms & Communities",
         "type": "community",
-        "trust": "community"
+        "trust": "traditional"
     },
     {
         "title": "Om Swami YouTube Channel",
@@ -293,6 +293,150 @@
         "description": "Downloadable PDFs of Sanskrit texts and translations.",
         "category": "Philosophy & Indic Text Archives",
         "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "Patanjali Yoga Sutras (IGS)",
+        "url": "https://www.gita-society.com/wp-content/uploads/PDF/Patanjali-yogasutra.IGS.pdf",
+        "description": "Patanjali Yoga Sutras PDF with Sanskrit text and English translation from the International Gita Society.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "BBT Media Art Gallery",
+        "url": "https://images.bbtmedia.com/images",
+        "description": "Official repository for devotional paintings and art work, featuring spiritual imagery and illustrations from Vedic scriptures.",
+        "category": "Modern Platforms & Communities",
+        "type": "media",
+        "trust": "community"
+    },
+    {
+        "title": "Greatest Verses Of The Vedas",
+        "url": "https://music.youtube.com/playlist?list=OLAK5uy_nPYIS40Ug2SCMUvc6Rl1j1ramwIO6ZzHU",
+        "description": "Audio compilation of significant verses from the Vedas.",
+        "category": "Audio & Oral Traditions",
+        "type": "audio",
+        "trust": "community"
+    },
+    {
+        "title": "The Ghanapati",
+        "url": "https://music.youtube.com/channel/UCUG8RJl-WxjAxVMlNq-29ww",
+        "description": "YouTube Music channel featuring high-quality Vedic recitations and chants.",
+        "category": "Audio & Oral Traditions",
+        "type": "audio",
+        "trust": "traditional"
+    },
+    {
+        "title": "The Sanskrit Channel",
+        "url": "https://www.youtube.com/@TheSanskritChannel",
+        "description": "Educational YouTube channel dedicated to Sanskrit language, literature, and Vedic wisdom.",
+        "category": "Modern Platforms & Communities",
+        "type": "media",
+        "trust": "community"
+    },
+    {
+        "title": "Cologne Digital Sanskrit Dictionaries",
+        "url": "https://www.sanskrit-lexicon.uni-koeln.de/",
+        "description": "The most comprehensive academic compilation of digitized Sanskrit dictionaries (including Monier-Williams and Apte) essential for translating scriptures.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "tool",
+        "trust": "academic"
+    },
+    {
+        "title": "Srimad Bhagavatam Online",
+        "url": "http://srimadbhagavatam.org/",
+        "description": "A beautifully formatted, independent digital presentation of the Srimad Bhagavatam with Sanskrit, Roman transliteration, synonyms, and translation.",
+        "category": "Epics (Ramayana, Mahabharata, Gita)",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "Stotra Nidhi",
+        "url": "https://stotranidhi.com/",
+        "description": "A meticulously proofread and formatted collection of thousands of Hindu stotras and mantras available in multiple Indian regional scripts.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "Sanskrit Texts and Stotras",
+        "url": "https://sanskrit.safire.com/",
+        "description": "Downloadable PDFs of core Sanskrit texts, stotras, Vedic selections, Upanishads, Bhagavad Gita, and sahasranamas (with some translations/transliterations); includes audio recordings of Vedic pundits reciting Rig/Sama Veda, Upanishads, and Gita.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "portal",
+        "trust": "community"
+    },
+    {
+        "title": "Ambuda",
+        "url": "https://ambuda.org/",
+        "description": "A Sanskrit library featuring Sanskrit texts with word-by-word analysis, integrated dictionary support, and digital tools.",
+        "category": "Modern Platforms & Communities",
+        "type": "portal",
+        "trust": "community"
+    },
+    {
+        "title": "Bodleian Sanskrit Manuscripts (Clay Collection)",
+        "url": "https://digital.bodleian.ox.ac.uk/collections/sanskrit-manuscripts-clay/",
+        "description": "Digital archive of rare and significant Sanskrit manuscripts from the Bodleian Libraries, University of Oxford.",
+        "category": "Manuscripts & Rare Archives",
+        "type": "manuscript",
+        "trust": "academic"
+    },
+    {
+        "title": "Advaita Vedanta Archive",
+        "url": "https://www.advaita-vedanta.org/",
+        "description": "Collection of Advaita Vedanta texts including works of Shankaracharya and other Vedantic scholars.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "Dharmic Scriptures",
+        "url": "https://www.dharmicscriptures.org/scriptures/",
+        "description": "Structured directory of Hindu scriptures including Vedas, Upanishads, Puranas, and Vedanta texts.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "portal",
+        "trust": "community"
+    },
+    {
+        "title": "Hindu Online Scriptural Library",
+        "url": "https://hinduonline.co/DigitalLibrary.html",
+        "description": "Digital library providing categorized access to Vedas, Vedangas, Upanishads, and philosophical texts.",
+        "category": "Vedas & Upanishads",
+        "type": "portal",
+        "trust": "community"
+    },
+    {
+        "title": "Cambridge Sanskrit Manuscripts",
+        "url": "https://cudl.lib.cam.ac.uk/collections/sanskrit",
+        "description": "A full catalogue and digital archive of the Sanskrit manuscripts held by Cambridge Digital Library.",
+        "category": "Manuscripts & Rare Archives",
+        "type": "manuscript",
+        "trust": "academic"
+    },
+    {
+        "title": "Soundarya Lahari",
+        "url": "https://sriadishankarastutis.org/wp-content/uploads/2019/04/SOUNDARYALAHARI.pdf",
+        "description": "Soundarya Lahari PDF by Sri Adi Shankara Stutis.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "Tantra Sadhana App",
+        "url": "https://tantrasadhana.app",
+        "description": "Tantra Sadhana app from Om Swami and the Vedic Sadhana Foundation team, offering guided practices.",
+        "category": "Modern Platforms & Communities",
+        "type": "community",
+        "trust": "traditional"
+    },
+    {
+        "title": "DharmaWiki",
+        "url": "https://dharmawiki.org/index.php/Main_Page",
+        "description": "Community-edited educational wiki covering Hindu Sanatan Dharma — temples, philosophy, rituals, texts, and traditions with articles in English and Hindi.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "portal",
         "trust": "community"
     }
 ]

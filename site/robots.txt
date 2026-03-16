@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://<your-username>.github.io/SanatanDharmaDirectory/sitemap.xml
+Sitemap: https://dhruvil-8.github.io/SanatanDharmaDirectory/sitemap.xml

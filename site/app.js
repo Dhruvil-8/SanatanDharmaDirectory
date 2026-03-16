@@ -2,7 +2,6 @@ const listContainer = document.getElementById("list");
 const searchInput = document.getElementById("search");
 const typeFilter = document.getElementById("typeFilter");
 const trustFilter = document.getElementById("trustFilter");
-const themeToggle = document.getElementById("themeToggle");
 
 let resources = [];
 let categories = [];
@@ -14,20 +13,7 @@ const trustLevels = {
     unverified: 4
 };
 
-// Theme Toggle Logic
-let isDark = false;
-themeToggle.addEventListener("click", () => {
-    isDark = !isDark;
-    if (isDark) {
-        document.body.classList.remove("light-mode");
-        document.body.classList.add("dark-mode");
-        themeToggle.textContent = "Light Mode";
-    } else {
-        document.body.classList.remove("dark-mode");
-        document.body.classList.add("light-mode");
-        themeToggle.textContent = "Dark Mode";
-    }
-});
+// Theme Toggle Logic Removed
 
 async function loadData() {
     try {
