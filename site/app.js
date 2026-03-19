@@ -35,8 +35,11 @@ async function loadData() {
         // Categories no longer need a dropdown, they are grouped in render()
         render(resources);
     } catch (error) {
-        listContainer.innerHTML = `<div style="text-align: center; padding: 40px;">Failed to load data. Ensure you are running this via a local server or GitHub Pages.</div>`;
-        console.error(error);
+        const errDiv = document.createElement("div");
+        errDiv.style.cssText = "text-align: center; padding: 40px;";
+        errDiv.textContent = "Failed to load data. Ensure you are running this via a local server or GitHub Pages.";
+        listContainer.appendChild(errDiv);
+        console.error("Data load error:", error);
     }
 }
 
@@ -79,25 +82,65 @@ function render(list) {
             const item = document.createElement("div");
             item.className = "list-item";
 
-            const originText = r.origin ? `${r.origin.organization || r.origin.country || ''}` : '';
-            const trustClass = `badge badge-${r.trust}`;
+            // --- Safe DOM construction (no innerHTML with data) ---
+            const listHeader = document.createElement("div");
+            listHeader.className = "list-header";
 
-            item.innerHTML = `
-              <div class="list-header">
-                ${r.type ? `<span class="type-label">[${r.type}]</span>` : ''}
-                <h3><a href="${r.url}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">${r.title}</a></h3>
-              </div>
-              <p>${r.description}</p>
-              <div class="list-meta">
-                <div class="badges">
-                  <span class="${trustClass}">${r.trust || "unknown"}</span>
-                </div>
-                <div style="display: flex; gap: 15px; align-items: center;">
-                    ${originText ? `<span class="origin-text">${originText}</span>` : ''}
-                    <a href="${r.url}" class="visit-link" target="_blank" rel="noopener noreferrer">Visit →</a>
-                </div>
-              </div>
-            `;
+            if (r.type) {
+                const typeSpan = document.createElement("span");
+                typeSpan.className = "type-label";
+                typeSpan.textContent = `[${r.type}]`;
+                listHeader.appendChild(typeSpan);
+            }
+
+            const h3 = document.createElement("h3");
+            const titleLink = document.createElement("a");
+            titleLink.href = r.url;
+            titleLink.target = "_blank";
+            titleLink.rel = "noopener noreferrer";
+            titleLink.style.cssText = "color: inherit; text-decoration: none;";
+            titleLink.textContent = r.title;
+            h3.appendChild(titleLink);
+            listHeader.appendChild(h3);
+            item.appendChild(listHeader);
+
+            const desc = document.createElement("p");
+            desc.textContent = r.description;
+            item.appendChild(desc);
+
+            const meta = document.createElement("div");
+            meta.className = "list-meta";
+
+            const badges = document.createElement("div");
+            badges.className = "badges";
+            const trustSpan = document.createElement("span");
+            const safeTrust = /^[a-z]+$/.test(r.trust || '') ? r.trust : "unknown";
+            trustSpan.className = `badge badge-${safeTrust}`;
+            trustSpan.textContent = r.trust || "unknown";
+            badges.appendChild(trustSpan);
+            meta.appendChild(badges);
+
+            const actions = document.createElement("div");
+            actions.style.cssText = "display: flex; gap: 15px; align-items: center;";
+
+            const originText = r.origin ? (r.origin.organization || r.origin.country || '') : '';
+            if (originText) {
+                const originSpan = document.createElement("span");
+                originSpan.className = "origin-text";
+                originSpan.textContent = originText;
+                actions.appendChild(originSpan);
+            }
+
+            const visitLink = document.createElement("a");
+            visitLink.href = r.url;
+            visitLink.className = "visit-link";
+            visitLink.target = "_blank";
+            visitLink.rel = "noopener noreferrer";
+            visitLink.textContent = "Visit →";
+            actions.appendChild(visitLink);
+            meta.appendChild(actions);
+            item.appendChild(meta);
+
             itemsWrapper.appendChild(item);
         });
 

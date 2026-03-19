@@ -17,7 +17,7 @@
     },
     {
         "title": "SanskritDocuments.org",
-        "url": "https://sanskritdocuments.org",
+        "url": "https://sanskritdocuments.org/sitemap/",
         "description": "Large repository of Sanskrit texts across scriptures and stotras.",
         "category": "Vedas & Upanishads",
         "type": "text",
@@ -58,7 +58,7 @@
     {
         "title": "4 Vedas Dataset (Kaggle)",
         "url": "https://www.kaggle.com/datasets/prateekvashishth/4-vedas",
-        "description": "Text dataset containing the four Vedas.",
+        "description": "PDF dataset containing the four Vedas.",
         "category": "Datasets & Computational Sanskrit",
         "type": "dataset",
         "trust": "community"
@@ -69,7 +69,7 @@
         "description": "Sanskrit and English presentation of the Valmiki Ramayana.",
         "category": "Epics (Ramayana, Mahabharata, Gita)",
         "type": "text",
-        "trust": "traditional"
+        "trust": "community"
     },
     {
         "title": "Valmiki Ramayana Dataset",
@@ -101,14 +101,6 @@
         "description": "Curated directory of Indic e-text collections.",
         "category": "Philosophy & Indic Text Archives",
         "type": "portal",
-        "trust": "academic"
-    },
-    {
-        "title": "Shaiva E-texts (Hamburg University)",
-        "url": "https://www.tantric-studies.uni-hamburg.de/research/e-texts/shaiva-etexts.html",
-        "description": "Academic collection of Shaiva and Tantric texts.",
-        "category": "Philosophy & Indic Text Archives",
-        "type": "text",
         "trust": "academic"
     },
     {
@@ -155,7 +147,7 @@
         "title": "Ayurveda Text Dataset",
         "url": "https://www.kaggle.com/datasets/rcratos/ayurveda-texts-english",
         "description": "English Ayurveda text dataset.",
-        "category": "Ayurveda & Jyotish",
+        "category": "Ayurveda",
         "type": "dataset",
         "trust": "community"
     },
@@ -163,7 +155,7 @@
         "title": "Jagannatha Hora",
         "url": "https://www.vedicastrologer.org/jh/index.htm",
         "description": "Free Vedic astrology software for chart calculations.",
-        "category": "Ayurveda & Jyotish",
+        "category": "Jyotish",
         "type": "tool",
         "trust": "traditional"
     },
@@ -171,7 +163,7 @@
         "title": "PyJHora",
         "url": "https://github.com/naturalstupid/PyJHora",
         "description": "Python implementation of Vedic astrology calculations.",
-        "category": "Ayurveda & Jyotish",
+        "category": "Jyotish",
         "type": "tool",
         "trust": "community"
     },
@@ -179,7 +171,7 @@
         "title": "VedAstro",
         "url": "https://github.com/VedAstro/VedAstro",
         "description": "Open-source Vedic astrology APIs and libraries.",
-        "category": "Ayurveda & Jyotish",
+        "category": "Jyotish",
         "type": "tool",
         "trust": "community"
     },
@@ -224,14 +216,6 @@
         "trust": "community"
     },
     {
-        "title": "SARIT - Search and Retrieval of Indic Texts",
-        "url": "https://sarit.indology.info/",
-        "description": "Digital corpus of Sanskrit and Prakrit texts for scholarly study and search.",
-        "category": "Datasets & Computational Sanskrit",
-        "type": "text",
-        "trust": "academic"
-    },
-    {
         "title": "Muktabodha Digital Library",
         "url": "https://muktabodha.org/",
         "description": "Digital collection of rare Sanskrit manuscripts with emphasis on Tantra and Shaiva traditions.",
@@ -256,14 +240,6 @@
         "trust": "traditional"
     },
     {
-        "title": "Patanjali Yoga Sutras",
-        "url": "https://patanjaliyogasutra.in/",
-        "description": "Comprehensive resource for the Yoga Sutras of Patanjali with translations and commentary.",
-        "category": "Philosophy & Indic Text Archives",
-        "type": "text",
-        "trust": "community"
-    },
-    {
         "title": "Global Grey Ebooks (Hinduism)",
         "url": "https://www.globalgreyebooks.com/category/ebooks/hinduism-page-1.html",
         "description": "Collection of public domain English translations of Hindu texts.",
@@ -285,14 +261,6 @@
         "description": "Digital library of various Hindu religious scriptures.",
         "category": "Philosophy & Indic Text Archives",
         "type": "portal",
-        "trust": "community"
-    },
-    {
-        "title": "Sanskrit eBooks",
-        "url": "https://www.sanskritebooks.org/ebooks-download/",
-        "description": "Downloadable PDFs of Sanskrit texts and translations.",
-        "category": "Philosophy & Indic Text Archives",
-        "type": "text",
         "trust": "community"
     },
     {
@@ -368,15 +336,7 @@
         "trust": "community"
     },
     {
-        "title": "Ambuda",
-        "url": "https://ambuda.org/",
-        "description": "A Sanskrit library featuring Sanskrit texts with word-by-word analysis, integrated dictionary support, and digital tools.",
-        "category": "Modern Platforms & Communities",
-        "type": "portal",
-        "trust": "community"
-    },
-    {
-        "title": "Bodleian Sanskrit Manuscripts (Clay Collection)",
+        "title": "Bodleian Sanskrit Manuscripts",
         "url": "https://digital.bodleian.ox.ac.uk/collections/sanskrit-manuscripts-clay/",
         "description": "Digital archive of rare and significant Sanskrit manuscripts from the Bodleian Libraries, University of Oxford.",
         "category": "Manuscripts & Rare Archives",
@@ -434,7 +394,79 @@
     {
         "title": "DharmaWiki",
         "url": "https://dharmawiki.org/index.php/Main_Page",
-        "description": "Community-edited educational wiki covering Hindu Sanatan Dharma — temples, philosophy, rituals, texts, and traditions with articles in English and Hindi.",
+        "description": "Community-edited educational wiki covering Hindu Sanatan Dharma — temples, philosophy, texts, and traditions with articles in English and Hindi.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "portal",
+        "trust": "community"
+    },
+    {
+        "title": "Sanskrit Web",
+        "url": "http://www.sanskritweb.net/",
+        "description": "Comprehensive resource for Sanskrit texts, fonts, transliteration tools, and Vedic literature in multiple scripts.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "portal",
+        "trust": "academic"
+    },
+    {
+        "title": "SARIT Corpus",
+        "url": "https://github.com/sarit/SARIT-corpus",
+        "description": "Collaborative open repository of TEI-encoded Indic e-texts; part of the SARIT (Search and Retrieval of Indic Texts) project for annotating and sharing Sanskrit and Pali texts.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "academic"
+    },
+    {
+        "title": "Celextel",
+        "url": "https://www.celextel.org",
+        "description": "Online library offering a wide collection of Hindu scriptures, stotras, and philosophical texts in Sanskrit with English translations.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "Vedic Reserve (MIU)",
+        "url": "https://vedicreserve.miu.edu",
+        "description": "Digital PDF archive of the complete Vedic Literature maintained by Maharishi International University's Department of Vedic Science.",
+        "category": "Vedas & Upanishads",
+        "type": "text",
+        "trust": "academic"
+    },
+    {
+        "title": "Bombay Indology (John Smith)",
+        "url": "https://bombay.indology.info/",
+        "description": "Authoritative electronic texts of the Sanskrit epics Mahabharata and Ramayana, plus Indological fonts and tools maintained by Prof. John D. Smith.",
+        "category": "Epics (Ramayana, Mahabharata, Gita)",
+        "type": "text",
+        "trust": "academic"
+    },
+    {
+        "title": "Ambuda (GitHub)",
+        "url": "https://github.com/ambuda-org/ambuda",
+        "description": "Open-source core application code for Ambuda,built with Python/Flask, providing texts, dictionaries, and parse data drawn from GRETIL, Cologne Dictionaries, and DCS.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "academic"
+    },
+    {
+        "title": "National Mission for Manuscripts (NMM)",
+        "url": "https://namami.gov.in/",
+        "description": "Government of India initiative to locate, document, conserve, and digitize India's vast manuscript heritage covering Sanskrit and all Indic language traditions.",
+        "category": "Manuscripts & Rare Archives",
+        "type": "portal",
+        "trust": "academic"
+    },
+    {
+        "title": "Sanskrit Heritage Platform (INRIA)",
+        "url": "https://sanskrit.inria.fr/",
+        "description": "Computational Sanskrit tools from INRIA (France): morphological analyzer, segmenter, parser, and Sanskrit grammar engine for Paninian Sanskrit processing.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "tool",
+        "trust": "academic"
+    },
+    {
+        "title": "Shlokam",
+        "url": "https://shlokam.org/",
+        "description": "Free, ad-free library of Hindu scriptures with Sanskrit text, transliteration, word meanings, translations, audio, and commentary — available in 20+ scripts including Telugu, Tamil, Kannada, Malayalam and Devanagari.",
         "category": "Philosophy & Indic Text Archives",
         "type": "portal",
         "trust": "community"
