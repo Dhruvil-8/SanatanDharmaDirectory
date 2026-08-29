@@ -144,12 +144,12 @@
         "trust": "community"
     },
     {
-        "title": "Ayurveda Text Dataset",
-        "url": "https://www.kaggle.com/datasets/rcratos/ayurveda-texts-english",
-        "description": "English Ayurveda text dataset.",
-        "category": "Ayurveda",
-        "type": "dataset",
-        "trust": "community"
+        "title": "Samsadhani (University of Hyderabad)",
+        "url": "https://sanskrit.uohyd.ac.in/scl/",
+        "description": "Comprehensive Sanskrit computational linguistics platform developed by the University of Hyderabad, offering morphological analyzers, Sandhi splitters, compound generators, and dependency parsers.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "tool",
+        "trust": "academic"
     },
     {
         "title": "Jagannatha Hora",
@@ -470,5 +470,45 @@
         "category": "Philosophy & Indic Text Archives",
         "type": "portal",
         "trust": "community"
+    },
+    {
+        "title": "Sanskrit and Prakrit Manuscripts (RGME)",
+        "url": "https://manuscriptevidence.org/wpme/sanskrit-and-prakrit-manuscripts/",
+        "description": "Curated digital gallery and descriptive catalogue of Sanskrit and Prakrit manuscripts on paper and palm-leaf by the Research Group on Manuscript Evidence.",
+        "category": "Manuscripts & Rare Archives",
+        "type": "manuscript",
+        "trust": "academic"
+    },
+    {
+        "title": "Sanskrit Wikisource (संस्कृतविकिस्रोतः)",
+        "url": "https://sa.wikisource.org/wiki/%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%AA%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A0%E0%A4%AE%E0%A5%8D",
+        "description": "Free collaborative digital library of Sanskrit texts spanning the Vedas, Upanishads, Epics, Puranas, Kavyas, and philosophical treatises.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "Harivamsa Online (Dvaipayana)",
+        "url": "https://www.dvaipayana.net/harivamsa/harivamsa-cs-index.html",
+        "description": "Complete digital edition of the Harivamsha (Chitrashala Press 1936 edition) featuring Sanskrit muulam in ITRANS and English translation by Desiraju Hanumanta Rao.",
+        "category": "Epics (Ramayana, Mahabharata, Gita)",
+        "type": "text",
+        "trust": "community"
+    },
+    {
+        "title": "VedicGranth.Org",
+        "url": "https://www.vedicgranth.org/",
+        "description": "Comprehensive digital library and guide to Vedic literature, hosting the four Vedas, Brahmanas, Aranyakas, Upanishads, Darshanas, and authentic commentaries.",
+        "category": "Vedas & Upanishads",
+        "type": "portal",
+        "trust": "community"
+    },
+    {
+        "title": "Indian Institute of Scientific Heritage (IISH)",
+        "url": "https://iish.org/",
+        "description": "Scientific heritage trust providing research publications, lectures, and an extensive repository of Vedic audio recitations covering the four Vedas",
+        "category": "Audio & Oral Traditions",
+        "type": "audio",
+        "trust": "traditional"
     }
 ]

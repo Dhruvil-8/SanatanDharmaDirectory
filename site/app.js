@@ -4,7 +4,6 @@ const typeFilter = document.getElementById("typeFilter");
 const trustFilter = document.getElementById("trustFilter");
 
 let resources = [];
-let categories = [];
 
 const trustLevels = {
     academic: 1,
@@ -17,13 +16,8 @@ const trustLevels = {
 
 async function loadData() {
     try {
-        const resReq = fetch("../data/resources.json");
-        const catReq = fetch("../data/categories.json");
-
-        const [resResp, catResp] = await Promise.all([resReq, catReq]);
-
+        const resResp = await fetch("../data/resources.json");
         resources = await resResp.json();
-        categories = await catResp.json();
 
         // Sort heavily trusted first
         resources.sort((a, b) => {
@@ -32,7 +26,6 @@ async function loadData() {
             return trustA - trustB;
         });
 
-        // Categories no longer need a dropdown, they are grouped in render()
         render(resources);
     } catch (error) {
         const errDiv = document.createElement("div");

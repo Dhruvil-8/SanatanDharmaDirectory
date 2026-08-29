@@ -11,8 +11,7 @@ This project is a directory of publicly available resources related to Sanatan D
 It does not endorse, promote, or rank any website, organization, or viewpoint. All entries are included for reference purposes only, with brief descriptions to help users understand the type of material available. Inclusion does not imply validation or endorsement.
 
 ## Architecture
-- `data/resources.json` — The scalable, flat JSON schema for all sources. 
-- `data/categories.json` — Simple mapping of UI categories.
+- `data/resources.json` — The scalable, flat JSON schema for all sources.
 - `site/` — The vanilla HTML/JS/CSS rendering layer.
 
 ## Contributing
