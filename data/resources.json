@@ -24,14 +24,6 @@
         "trust": "community"
     },
     {
-        "title": "Rigveda UTF-8 (Detlef Eichler)",
-        "url": "http://www.detlef108.de/RV-DT-UTF8.html",
-        "description": "Complete Rigveda text in UTF-8 format.",
-        "category": "Vedas & Upanishads",
-        "type": "text",
-        "trust": "community"
-    },
-    {
         "title": "Sacred Texts Archive (Hinduism)",
         "url": "https://sacred-texts.com/hin/index.htm",
         "description": "Public domain English translations of major Hindu scriptures.",
@@ -125,14 +117,6 @@
         "description": "Computational Sanskrit corpus and tools for research.",
         "category": "Datasets & Computational Sanskrit",
         "type": "dataset",
-        "trust": "academic"
-    },
-    {
-        "title": "Kyoto Sanskrit Resources",
-        "url": "https://www.cc.kyoto-su.ac.jp/~yanom/sanskrit/",
-        "description": "Sanskrit linguistic tools and digital resources from Kyoto University.",
-        "category": "Datasets & Computational Sanskrit",
-        "type": "portal",
         "trust": "academic"
     },
     {
@@ -352,14 +336,6 @@
         "trust": "community"
     },
     {
-        "title": "Dharmic Scriptures",
-        "url": "https://www.dharmicscriptures.org/scriptures/",
-        "description": "Structured directory of Hindu scriptures including Vedas, Upanishads, Puranas, and Vedanta texts.",
-        "category": "Philosophy & Indic Text Archives",
-        "type": "portal",
-        "trust": "community"
-    },
-    {
         "title": "Hindu Online Scriptural Library",
         "url": "https://hinduonline.co/DigitalLibrary.html",
         "description": "Digital library providing categorized access to Vedas, Vedangas, Upanishads, and philosophical texts.",
@@ -398,14 +374,6 @@
         "category": "Philosophy & Indic Text Archives",
         "type": "portal",
         "trust": "community"
-    },
-    {
-        "title": "Sanskrit Web",
-        "url": "http://www.sanskritweb.net/",
-        "description": "Comprehensive resource for Sanskrit texts, fonts, transliteration tools, and Vedic literature in multiple scripts.",
-        "category": "Datasets & Computational Sanskrit",
-        "type": "portal",
-        "trust": "academic"
     },
     {
         "title": "SARIT Corpus",
@@ -496,19 +464,35 @@
         "trust": "community"
     },
     {
-        "title": "VedicGranth.Org",
-        "url": "https://www.vedicgranth.org/",
-        "description": "Comprehensive digital library and guide to Vedic literature, hosting the four Vedas, Brahmanas, Aranyakas, Upanishads, Darshanas, and authentic commentaries.",
-        "category": "Vedas & Upanishads",
-        "type": "portal",
-        "trust": "community"
-    },
-    {
         "title": "Indian Institute of Scientific Heritage (IISH)",
         "url": "https://iish.org/",
         "description": "Scientific heritage trust providing research publications, lectures, and an extensive repository of Vedic audio recitations covering the four Vedas",
         "category": "Audio & Oral Traditions",
         "type": "audio",
         "trust": "traditional"
+    },
+    {
+        "title": "Bhaktivedanta Vedabase",
+        "url": "https://vedabase.io/en/",
+        "description": "Comprehensive digital repository of Vaishnava scriptures including Bhagavad Gita, Srimad Bhagavatam, and Chaitanya Charitamrita with Sanskrit text, word-for-word synonyms, and English translations.",
+        "category": "Epics (Ramayana, Mahabharata, Gita)",
+        "type": "portal",
+        "trust": "traditional"
+    },
+    {
+        "title": "Prapatti Online",
+        "url": "https://prapatti.com/",
+        "description": "Extensive archive of SriVaishnava texts, Stotras, Divya Prabandham (4000 Divya Pasurams), and Vedic suktas formatted in multiple Indian scripts and Roman transliteration.",
+        "category": "Philosophy & Indic Text Archives",
+        "type": "text",
+        "trust": "traditional"
+    },
+    {
+        "title": "LearnSanskrit.cc",
+        "url": "https://learnsanskrit.cc/",
+        "description": "Fast, modern online Sanskrit-English dictionary with inflected forms, sandhi analysis, and grammatical references.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "tool",
+        "trust": "community"
     }
 ]
