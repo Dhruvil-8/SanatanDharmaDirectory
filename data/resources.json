@@ -494,5 +494,53 @@
         "category": "Datasets & Computational Sanskrit",
         "type": "tool",
         "trust": "community"
+    },
+    {
+        "title": "Smriti — India's Civilizational Memory",
+        "url": "https://smriti.midf.org.in",
+        "description": "Comprehensive digital archive of India's epigraphic heritage, royal charters, temple records, and copper plate grants by Maharishi Indic Digital Foundation (MIDF).",
+        "category": "Manuscripts & Rare Archives",
+        "type": "portal",
+        "trust": "academic"
+    },
+    {
+        "title": "Monier-Williams Sanskrit Dictionary (GitHub)",
+        "url": "https://github.com/sanskrit-lexicon/MWS",
+        "description": "Machine-readable source data of the 1899 Monier-Williams Sanskrit-English Dictionary with over 280,000 etymological entries.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "academic"
+    },
+    {
+        "title": "Apte Practical Sanskrit-English Dictionary (GitHub)",
+        "url": "https://github.com/sanskrit-lexicon/AP90",
+        "description": "Digitized repository of V.S. Apte's 1890 Practical Sanskrit-English Dictionary with 34,000+ classical literature citations.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "academic"
+    },
+    {
+        "title": "Vachaspatyam Sanskrit Encyclopedia (GitHub)",
+        "url": "https://github.com/sanskrit-lexicon/VCP",
+        "description": "Exhaustive 6-volume Sanskrit-to-Sanskrit encyclopedia covering Darshanas, Nyaya, Mimamsa, and Paninian grammar.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "academic"
+    },
+    {
+        "title": "Shabdakalpadruma Sanskrit Lexicon (GitHub)",
+        "url": "https://github.com/sanskrit-lexicon/SKD",
+        "description": "Extensive Sanskrit-to-Sanskrit lexicon of Vedic, Puranic, and Ayurvedic terminology compiled by Raja Radhakanta Deb.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "academic"
+    },
+    {
+        "title": "Digital Corpus of Sanskrit - DCS (GitHub)",
+        "url": "https://github.com/cltk/sanskrit_text_dcs",
+        "description": "The gold-standard academic Sanskrit text corpus by Dr. Oliver Hellwig, with 4.5M lemmatized and syntactically analyzed sentences.",
+        "category": "Datasets & Computational Sanskrit",
+        "type": "dataset",
+        "trust": "academic"
     }
 ]

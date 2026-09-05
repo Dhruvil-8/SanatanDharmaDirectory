@@ -1,0 +1,96 @@
+# Sanatan Dharma Resource Directory
+> An open, neutral, and comprehensive index of scriptures, datasets, tools, and manuscript archives related to Sanatan Dharma.
+
+## Canonical Website
+- Main URL: https://dhruvil-8.github.io/SanatanDharmaDirectory/
+- Live Interface: https://dhruvil-8.github.io/SanatanDharmaDirectory/site/
+- Machine-Readable JSON: https://dhruvil-8.github.io/SanatanDharmaDirectory/data/resources.json
+- Last Updated: 2026-09-05
+- Total Curated Resources: 68
+
+## Resource Categories
+
+### Vedas & Upanishads (7 resources)
+- [Vedic Heritage Portal](https://vedicheritage.gov.in/): Government of India portal preserving Vedic texts, recitations, and manuscripts.
+- [SanskritDocuments.org](https://sanskritdocuments.org/sitemap/): Large repository of Sanskrit texts across scriptures and stotras.
+- [Sacred Texts Archive (Hinduism)](https://sacred-texts.com/hin/index.htm): Public domain English translations of major Hindu scriptures.
+- [VedaWeb](https://vedaweb.uni-koeln.de/): Academic linguistic platform focused on the Rigveda.
+- [Ved Puran Archive](https://vedpuran.net/download-all-ved-and-puran-pdf-hindi-free/): Hindi PDFs of Vedas and Puranas.
+- [Hindu Online Scriptural Library](https://hinduonline.co/DigitalLibrary.html): Digital library providing categorized access to Vedas, Vedangas, Upanishads, and philosophical texts.
+- [Vedic Reserve (MIU)](https://vedicreserve.miu.edu): Digital PDF archive of the complete Vedic Literature maintained by Maharishi International University's Department of Vedic Science.
+
+### Epics (Ramayana, Mahabharata, Gita) (6 resources)
+- [Gita Supersite (IIT Kanpur)](https://www.gitasupersite.iitk.ac.in/): Bhagavad Gita portal with multiple commentaries and translations.
+- [Valmiki Ramayana](https://valmikiramayan.net/): Sanskrit and English presentation of the Valmiki Ramayana.
+- [Srimad Bhagavatam Online](http://srimadbhagavatam.org/): A beautifully formatted, independent digital presentation of the Srimad Bhagavatam with Sanskrit, Roman transliteration, synonyms, and translation.
+- [Bombay Indology (John Smith)](https://bombay.indology.info/): Authoritative electronic texts of the Sanskrit epics Mahabharata and Ramayana, plus Indological fonts and tools maintained by Prof. John D. Smith.
+- [Harivamsa Online (Dvaipayana)](https://www.dvaipayana.net/harivamsa/harivamsa-cs-index.html): Complete digital edition of the Harivamsha (Chitrashala Press 1936 edition) featuring Sanskrit muulam in ITRANS and English translation by Desiraju Hanumanta Rao.
+- [Bhaktivedanta Vedabase](https://vedabase.io/en/): Comprehensive digital repository of Vaishnava scriptures including Bhagavad Gita, Srimad Bhagavatam, and Chaitanya Charitamrita with Sanskrit text, word-for-word synonyms, and English translations.
+
+### Datasets & Computational Sanskrit (18 resources)
+- [VedaWeb Data](https://github.com/VedaWebProject/vedaweb-data): Open research datasets supporting the VedaWeb project.
+- [4 Vedas Dataset (Kaggle)](https://www.kaggle.com/datasets/prateekvashishth/4-vedas): PDF dataset containing the four Vedas.
+- [Valmiki Ramayana Dataset](https://www.kaggle.com/datasets/niharsingla004/valmiki-ramayana-dataset): Structured dataset derived from the Valmiki Ramayana.
+- [Bhagavad Gita GitHub Dataset](https://github.com/gita/gita): Machine-readable Bhagavad Gita data and API resources.
+- [DharmicData Repository](https://github.com/bhavykhatri/DharmicData): Collection of datasets related to Dharmic scriptures.
+- [Vedanta Datasets](https://github.com/atmabodha/Vedanta_Datasets): Datasets focused on Vedanta and Yoga texts.
+- [Oliver Hellwig Sanskrit Corpus](https://github.com/OliverHellwig/sanskrit): Computational Sanskrit corpus and tools for research.
+- [Samsadhani (University of Hyderabad)](https://sanskrit.uohyd.ac.in/scl/): Comprehensive Sanskrit computational linguistics platform developed by the University of Hyderabad, offering morphological analyzers, Sandhi splitters, compound generators, and dependency parsers.
+- [Cologne Digital Sanskrit Dictionaries](https://www.sanskrit-lexicon.uni-koeln.de/): The most comprehensive academic compilation of digitized Sanskrit dictionaries (including Monier-Williams and Apte) essential for translating scriptures.
+- [SARIT Corpus](https://github.com/sarit/SARIT-corpus): Collaborative open repository of TEI-encoded Indic e-texts; part of the SARIT (Search and Retrieval of Indic Texts) project for annotating and sharing Sanskrit and Pali texts.
+- [Ambuda (GitHub)](https://github.com/ambuda-org/ambuda): Open-source core application code for Ambuda,built with Python/Flask, providing texts, dictionaries, and parse data drawn from GRETIL, Cologne Dictionaries, and DCS.
+- [Sanskrit Heritage Platform (INRIA)](https://sanskrit.inria.fr/): Computational Sanskrit tools from INRIA (France): morphological analyzer, segmenter, parser, and Sanskrit grammar engine for Paninian Sanskrit processing.
+- [LearnSanskrit.cc](https://learnsanskrit.cc/): Fast, modern online Sanskrit-English dictionary with inflected forms, sandhi analysis, and grammatical references.
+- [Monier-Williams Sanskrit Dictionary (GitHub)](https://github.com/sanskrit-lexicon/MWS): Machine-readable source data of the 1899 Monier-Williams Sanskrit-English Dictionary with over 280,000 etymological entries.
+- [Apte Practical Sanskrit-English Dictionary (GitHub)](https://github.com/sanskrit-lexicon/AP90): Digitized repository of V.S. Apte's 1890 Practical Sanskrit-English Dictionary with 34,000+ classical literature citations.
+- [Vachaspatyam Sanskrit Encyclopedia (GitHub)](https://github.com/sanskrit-lexicon/VCP): Exhaustive 6-volume Sanskrit-to-Sanskrit encyclopedia covering Darshanas, Nyaya, Mimamsa, and Paninian grammar.
+- [Shabdakalpadruma Sanskrit Lexicon (GitHub)](https://github.com/sanskrit-lexicon/SKD): Extensive Sanskrit-to-Sanskrit lexicon of Vedic, Puranic, and Ayurvedic terminology compiled by Raja Radhakanta Deb.
+- [Digital Corpus of Sanskrit - DCS (GitHub)](https://github.com/cltk/sanskrit_text_dcs): The gold-standard academic Sanskrit text corpus by Dr. Oliver Hellwig, with 4.5M lemmatized and syntactically analyzed sentences.
+
+### Philosophy & Indic Text Archives (15 resources)
+- [GRETIL e-text Archive](https://gretil.sub.uni-goettingen.de/gretil.html): Academic archive of Sanskrit and Indic texts.
+- [Indology Virtual Archive](https://indology.info/virtual-e-text-archive-of-indic-texts/): Curated directory of Indic e-text collections.
+- [Wisdom Library](https://www.wisdomlib.org/hinduism): Extensive collection of books, articles, dictionaries, and hymns on Hinduism and Sanskrit.
+- [Global Grey Ebooks (Hinduism)](https://www.globalgreyebooks.com/category/ebooks/hinduism-page-1.html): Collection of public domain English translations of Hindu texts.
+- [SHDVEF Scriptural Library](https://www.shdvef.com/religious-scriptures): Digital library of various Hindu religious scriptures.
+- [Patanjali Yoga Sutras (IGS)](https://www.gita-society.com/wp-content/uploads/PDF/Patanjali-yogasutra.IGS.pdf): Patanjali Yoga Sutras PDF with Sanskrit text and English translation from the International Gita Society.
+- [Stotra Nidhi](https://stotranidhi.com/): A meticulously proofread and formatted collection of thousands of Hindu stotras and mantras available in multiple Indian regional scripts.
+- [Sanskrit Texts and Stotras](https://sanskrit.safire.com/): Downloadable PDFs of core Sanskrit texts, stotras, Vedic selections, Upanishads, Bhagavad Gita, and sahasranamas (with some translations/transliterations); includes audio recordings of Vedic pundits reciting Rig/Sama Veda, Upanishads, and Gita.
+- [Advaita Vedanta Archive](https://www.advaita-vedanta.org/): Collection of Advaita Vedanta texts including works of Shankaracharya and other Vedantic scholars.
+- [Soundarya Lahari](https://sriadishankarastutis.org/wp-content/uploads/2019/04/SOUNDARYALAHARI.pdf): Soundarya Lahari PDF by Sri Adi Shankara Stutis.
+- [DharmaWiki](https://dharmawiki.org/index.php/Main_Page): Community-edited educational wiki covering Hindu Sanatan Dharma — temples, philosophy, texts, and traditions with articles in English and Hindi.
+- [Celextel](https://www.celextel.org): Online library offering a wide collection of Hindu scriptures, stotras, and philosophical texts in Sanskrit with English translations.
+- [Shlokam](https://shlokam.org/): library of Hindu scriptures with Sanskrit text, transliteration, word meanings, translations, audio, and commentary
+- [Sanskrit Wikisource (संस्कृतविकिस्रोतः)](https://sa.wikisource.org/wiki/%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%AA%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A0%E0%A4%AE%E0%A5%8D): Free collaborative digital library of Sanskrit texts spanning the Vedas, Upanishads, Epics, Puranas, Kavyas, and philosophical treatises.
+- [Prapatti Online](https://prapatti.com/): Extensive archive of SriVaishnava texts, Stotras, Divya Prabandham (4000 Divya Pasurams), and Vedic suktas formatted in multiple Indian scripts and Roman transliteration.
+
+### Audio & Oral Traditions (4 resources)
+- [Rigveda Audio Archive](https://github.com/aasi-archive/rv-audio): Audio recordings of Rigveda recitations.
+- [Greatest Verses Of The Vedas](https://music.youtube.com/playlist?list=OLAK5uy_nPYIS40Ug2SCMUvc6Rl1j1ramwIO6ZzHU): Audio compilation of significant verses from the Vedas.
+- [The Ghanapati](https://music.youtube.com/channel/UCUG8RJl-WxjAxVMlNq-29ww): YouTube Music channel featuring high-quality Vedic recitations and chants.
+- [Indian Institute of Scientific Heritage (IISH)](https://iish.org/): Scientific heritage trust providing research publications, lectures, and an extensive repository of Vedic audio recitations covering the four Vedas
+
+### Jyotish (3 resources)
+- [Jagannatha Hora](https://www.vedicastrologer.org/jh/index.htm): Vedic astrology software for chart calculations.
+- [PyJHora](https://github.com/naturalstupid/PyJHora): Python implementation of Vedic astrology calculations.
+- [VedAstro](https://github.com/VedAstro/VedAstro): Open-source Vedic astrology APIs and libraries.
+
+### Modern Platforms & Communities (9 resources)
+- [Veducation Library](https://www.veducation.world/library): Online library of Hindu scriptures and books.
+- [OS.me](https://os.me/): Spiritual writing and knowledge platform.
+- [Sadhana App](https://sadhana.app/): Modern digital platform for guided spiritual practices.
+- [Om Swami YouTube Channel](https://www.youtube.com/@omswamitv): Video lectures and discussions on Sanatan Dharma topics.
+- [Vedanta Society of New York](https://www.youtube.com/channel/UCZOKv_xnTzyLD9RJmbBUV9Q): Video content related to Hindu philosophy and teachings.
+- [Gita Press](https://www.gitapress.org/): World's largest publisher of Hindu religious texts offering online authentic e-books.
+- [BBT Media Art Gallery](https://images.bbtmedia.com/images): Official repository for devotional paintings and art work, featuring spiritual imagery and illustrations from Vedic scriptures.
+- [The Sanskrit Channel](https://www.youtube.com/@TheSanskritChannel): Educational YouTube channel dedicated to Sanskrit language, literature, and Vedic wisdom.
+- [Tantra Sadhana App](https://tantrasadhana.app): Tantra Sadhana app from Om Swami and the Vedic Sadhana Foundation team, offering guided practices.
+
+### Manuscripts & Rare Archives (6 resources)
+- [Muktabodha Digital Library](https://muktabodha.org/): Digital collection of rare Sanskrit manuscripts with emphasis on Tantra and Shaiva traditions.
+- [Bodleian Sanskrit Manuscripts](https://digital.bodleian.ox.ac.uk/collections/sanskrit-manuscripts-clay/): Digital archive of rare and significant Sanskrit manuscripts from the Bodleian Libraries, University of Oxford.
+- [Cambridge Sanskrit Manuscripts](https://cudl.lib.cam.ac.uk/collections/sanskrit): A full catalogue and digital archive of the Sanskrit manuscripts held by Cambridge Digital Library.
+- [National Mission for Manuscripts (NMM)](https://namami.gov.in/): Government of India initiative to locate, document, conserve, and digitize India's vast manuscript heritage covering Sanskrit and all Indic language traditions.
+- [Sanskrit and Prakrit Manuscripts (RGME)](https://manuscriptevidence.org/wpme/sanskrit-and-prakrit-manuscripts/): Curated digital gallery and descriptive catalogue of Sanskrit and Prakrit manuscripts on paper and palm-leaf by the Research Group on Manuscript Evidence.
+- [Smriti — India's Civilizational Memory](https://smriti.midf.org.in): Comprehensive digital archive of India's epigraphic heritage, royal charters, temple records, and copper plate grants by Maharishi Indic Digital Foundation (MIDF).
+
