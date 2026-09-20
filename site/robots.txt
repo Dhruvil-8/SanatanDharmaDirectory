@@ -17,4 +17,3 @@ User-agent: CCBot
 Allow: /
 
 Sitemap: https://dhruvil-8.github.io/SanatanDharmaDirectory/sitemap.xml
-Sitemap: https://dhruvil-8.github.io/SanatanDharmaDirectory/site/sitemap.xml

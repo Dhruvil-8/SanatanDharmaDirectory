@@ -92,5 +92,5 @@
 - [Cambridge Sanskrit Manuscripts](https://cudl.lib.cam.ac.uk/collections/sanskrit): A full catalogue and digital archive of the Sanskrit manuscripts held by Cambridge Digital Library.
 - [National Mission for Manuscripts (NMM)](https://namami.gov.in/): Government of India initiative to locate, document, conserve, and digitize India's vast manuscript heritage covering Sanskrit and all Indic language traditions.
 - [Sanskrit and Prakrit Manuscripts (RGME)](https://manuscriptevidence.org/wpme/sanskrit-and-prakrit-manuscripts/): Curated digital gallery and descriptive catalogue of Sanskrit and Prakrit manuscripts on paper and palm-leaf by the Research Group on Manuscript Evidence.
-- [Smriti — India's Civilizational Memory](https://smriti.midf.org.in): Comprehensive digital archive of India's epigraphic heritage, royal charters, temple records, and copper plate grants by Maharishi Indic Digital Foundation (MIDF).
+- [Smriti — India's Civilizational Memory](https://smriti.midf.org.in/): Comprehensive digital archive of India's epigraphic heritage, royal charters, temple records, and copper plate grants by Maharishi Indic Digital Foundation (MIDF).
 
